@@ -1,0 +1,15 @@
+SystemConfig:
+  rsa-keypair:
+    # 加密方式
+    algorithm: RSA
+    # 初始化大小
+    key-size: 1024
+    # 公钥文件
+    public-key-file: D://publicKey
+    # 私钥文件
+    private-key-file: D://priavteKey
+
+jasypt:
+  encryptor:
+    ## 实现jasypt加密解密的类
+    bean: desencrypt
